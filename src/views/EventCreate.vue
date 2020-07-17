@@ -6,7 +6,6 @@
 
       <h3>Name & describe your event</h3>
       <BaseInput label="Title" v-model="event.title" type="text" placeholder="Title" class=field />
-
       <BaseInput label="Description" v-model="event.description" type="text" placeholder="Description" class=field />
 
       <h3>Where is your event?</h3>
@@ -21,7 +20,8 @@
 
       <BaseSelect label="Select a time" :options="times" v-model="event.time" class="field" />
 
-      <input type="submit" class="button -fill-gradient" value="Submit"/>
+      <!--<input type="submit" class="button -fill-gradient" value="Submit"/>-->
+      <BaseButton type="submit" buttonClass="-fill-gradient">Submit</BaseButton>
     </form>
   </div>
 </template>
