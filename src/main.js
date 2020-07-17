@@ -9,6 +9,15 @@ import 'nprogress/nprogress.css'
 import Vuelidate from 'vuelidate'
 
 Vue.use(Vuelidate)
+
+/*
+Vue.mixin({
+  mounted() {
+    console.log('I am mixed into every component.')
+  }
+})
+*/
+
 Vue.component('BaseIcon', BaseIcon)
 Vue.config.productionTip = false
 
