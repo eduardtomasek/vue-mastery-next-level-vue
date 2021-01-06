@@ -9,7 +9,7 @@
     "mock": "json-server --watch db.json"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "lodash": "^4.17.19",
     "nprogress": "^0.2.0",
     "vue": "^2.5.17",
